@@ -92,9 +92,11 @@ document.addEventListener('DOMContentLoaded', () => {
 //--------------------------------------------------------------------------------------------------------
 //Carousel
 
- const carousel = document.getElementById('carousel');
+document.addEventListener('DOMContentLoaded', () => {
+    const carousel = document.getElementById('carousel');
 
-    function scrollCarousel(direction) {
-      const cardWidth = 320; // card width + gap
+    window.scrollCarousel = function (direction) {
+      const cardWidth = 320; // includes gap
       carousel.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
-    }
+    };
+  });
