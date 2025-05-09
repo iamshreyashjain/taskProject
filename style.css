@@ -1,0 +1,251 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica', sans-serif;
+    /* background: linear-gradient(#f8f8f8, #eaeaea); */
+    background-color: white;
+    color: #222;
+}
+
+.italiana-regular {
+    font-family: "Italiana", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 8px;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+  .subscription-banner {
+    position: relative;
+    margin: 40px 40px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #f8f7f4;
+    border-radius: 12px;
+  }
+  
+  .background-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-content {
+    position: relative;
+    z-index: 2;
+    padding: 60px;
+    max-width: 60%;
+  }
+  
+  .text-content h5 {
+    color: orange;
+    letter-spacing: 3px;
+  }
+  
+  .text-content h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .benefits {
+    display: flex ;
+    width: 500px;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+  
+  .benefits span {
+    background-color: #ddd;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+
+  
+  table {
+    width: 80%;
+    margin: 0 auto;
+
+
+    border-spacing: 0;
+    border-collapse: collapse;
+
+    font-family: Arial, sans-serif;
+  }
+
+  th, td {
+    padding: 16px;
+    text-align: center;
+    
+  }
+  td{
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr th:nth-child(2) {
+    background-color: #f5f3ed;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  
+
+  th:first-child, td:first-child {
+    text-align: left;
+  }
+  
+  
+  .alcami-col {
+    background-color: #f5f3ed;
+  }
+
+  /* Bottom-left and bottom-right rounding for last Alcami cell */
+  .alcami-bottom {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .testimonial-section {
+    padding: 40px 80px;
+    background-color: #f0efeb;
+  }
+
+  .testimonial-section h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .testimonial-section p {
+    color: #555;
+    margin-bottom: 30px;
+  }
+
+  .carousel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .carousel {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+  }
+
+  .card {
+    min-width: 400px;
+    max-width: 400px;
+    height: 200px;
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    flex-shrink: 0;
+  }
+
+  .stars {
+    color: seagreen;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .carousel-controls {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+
+  .carousel-btn {
+    background-color: #000;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+  .accordion-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0px 80px;
+  }
+
+  .left-section {
+    max-width: 40%;
+  }
+
+  .right-section {
+    width: 50%;
+    margin-left: 40px;
+  }
+
+  .accordion {
+
+border: none;
+background-color: none;
+cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    background-color: white;
+border-bottom: 2px solid black;
+    transition: 0.4s;
+  }
+
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .panel.open {
+    display: block;
+  }
+
+  button.custom-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-image: linear-gradient(to right, #CAA648, #DBB95E, #BB9A3C);
+    border-radius: 25px;
+    padding: 8px 20px;
+    gap: 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
